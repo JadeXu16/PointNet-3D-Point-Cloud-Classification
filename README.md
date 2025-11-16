@@ -51,9 +51,9 @@ The project follows a staged progression, just like the course brief, with each 
 
 | Stage | What Was Implemented | Main Benefit | Typical Outcome |
 | :--- | :--- | :--- | :--- |
-| I. Data Loader + Baseline | Train/test splits + voxel histogram classifier | Quick end‑to‑end sanity check | 35‑40% validation acc |
-| II. PointNet | Shared MLP encoder + global max pooling | Learns permutation‑invariant features | ~78% validation acc |
-| III. PointNet + T-Net | Input alignment module feeding the classifier | Better robustness across classes | >80% validation acc |
+| I. Data Loader + Baseline | Train/test splits + voxel histogram classifier | Quick end‑to‑end sanity check | ~50% test acc |
+| II. PointNet | Shared MLP encoder + global max pooling | Learns permutation‑invariant features | >65% test acc |
+| III. PointNet + T-Net | Input alignment module feeding the classifier | Better robustness across classes | >65% test acc |
 | IV. Analysis Utilities | Confusion matrices, critical-point plots | Interpretability + debugging | Qualitative insights |
 
 Numbers come from the experiments recorded in `main.ipynb`. They depend on hardware, optimizer settings, and
